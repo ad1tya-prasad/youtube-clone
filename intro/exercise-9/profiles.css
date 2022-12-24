@@ -1,0 +1,44 @@
+p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.profile{
+    margin-top: 20px;
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin-right: 10px;
+
+}
+.img{
+    object-fit: cover;
+    width: 200px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+
+.mutual{
+    font-size: 15px;
+    color: #999;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+}
+.add-friend{
+    border: none;
+    background-color: rgb(24, 119, 242);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+    font-size: 16px;
+}
