@@ -3,6 +3,10 @@
     <head>
         <title>Google</title>
         <style>
+            div{
+                text-align: center;
+            }
+
             .google-logo {
                 display: block;
                 margin-left: auto;
@@ -24,11 +28,26 @@
 
 
             }
+            .button{
+                border: none;
+                width: 23%;
+                font-size: 16px;
+                padding: 10px 10px;
+                background-color: #f2f2f2;
+                margin-top: 30px;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
         </style>
     </head>
-    <body>
-        <img class="google-logo" src="google-logo.png">
+    <div>
+        <body>
+            <img class="google-logo" src="google-logo.png">
+    
+            <input class="search-bar" type="text" placeholder="Search Google or type a URL">
+            <button class="button">Google Search</button>
+            <button class="button">I'm Feeling Lucky</button>
 
-        <input class="search-bar" type="text" placeholder="Search Google or type a URL"
-    </body>
+        </body>
+    </div>
 </html>
